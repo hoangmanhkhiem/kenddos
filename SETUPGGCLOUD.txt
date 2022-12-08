@@ -1,0 +1,7 @@
+git clone https://github.com/hoangmanhkhiem/Kenddos
+pip install pystyle
+pip install asciimatics
+cd Kenddos
+python3 main.py
+
+
