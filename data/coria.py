@@ -34,7 +34,7 @@ for line in output_lines:
                 break
             new_c += 1
         if send_for_loop == True:
-            for i in range(1,int(for_int)):
+            for _ in range(1,int(for_int)):
                 output_for_loop = output_for_loop.replace("{CLEAR}", "\033[2J\033[1;1H")
                 output_for_loop = output_for_loop.replace("{RED}", "\x1b[31m")
                 output_for_loop = output_for_loop.replace("{RESET}", "\x1b[39m")
